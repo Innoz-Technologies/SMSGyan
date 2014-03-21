@@ -1,0 +1,4 @@
+<?php
+
+//API/Solr algorithum
+?>

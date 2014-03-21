@@ -36,13 +36,7 @@ function getmatches_data(){
 }
 
 function connect_db(){	
-	$dbhost='localhost';
-	$username='root';
-	$password='';
-	$database='gyantest';
-	$dbconnect = mysql_connect($dbhost, $username, $password) or die('Error connecting to mysql: ' . mysql_error());
-	mysql_select_db($database) or trigger_error('Error selecting databae: ' . mysql_error(), E_USER_ERROR);
-	return $dbconnect;
+	//db conection
 }
 //}
 
