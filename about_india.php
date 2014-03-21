@@ -1,0 +1,4 @@
+<?php
+
+// about india
+?>
